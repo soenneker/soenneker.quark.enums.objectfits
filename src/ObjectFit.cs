@@ -1,7 +1,7 @@
 ﻿using Intellenum;
 using Soenneker.Quark.Enums.GlobalKeywords;
 
-namespace Soenneker.Quark.Enums.ObjectFits;
+namespace Soenneker.Quark;
 
 /// <summary>
 /// Typed values for the CSS object-fit property in .NET enumeration form.
