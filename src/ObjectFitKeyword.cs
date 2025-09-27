@@ -6,7 +6,7 @@ namespace Soenneker.Quark.Enums;
 /// Typed values for the CSS object-fit property in .NET enumeration form.
 /// </summary>
 [Intellenum<string>]
-public sealed partial class ObjectFitKeywordKeyword
+public sealed partial class ObjectFitKeyword
 {
     public static readonly ObjectFitKeyword Contain = new("contain");
     public static readonly ObjectFitKeyword Cover = new("cover");
