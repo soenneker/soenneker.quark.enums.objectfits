@@ -1,11 +1,11 @@
-using Intellenum;
+using Soenneker.Gen.EnumValues;
 
 namespace Soenneker.Quark.Enums;
 
 /// <summary>
 /// Typed values for the CSS object-fit property in .NET enumeration form.
 /// </summary>
-[Intellenum<string>]
+[EnumValue<string>]
 public sealed partial class ObjectFitKeyword
 {
     public static readonly ObjectFitKeyword Contain = new("contain");
