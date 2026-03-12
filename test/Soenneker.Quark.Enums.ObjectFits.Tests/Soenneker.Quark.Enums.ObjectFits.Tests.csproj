@@ -15,7 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\src\Soenneker.Quark.Enums.ObjectFits.csproj" />
+        <ProjectReference Include="..\..\src\Soenneker.Quark.Enums.ObjectFits\Soenneker.Quark.Enums.ObjectFits.csproj" />
     </ItemGroup>
 
     <ItemGroup>
