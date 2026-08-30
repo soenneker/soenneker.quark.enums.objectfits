@@ -3,30 +3,30 @@ using Soenneker.Gen.EnumValues;
 namespace Soenneker.Quark;
 
 /// <summary>
-/// Typed values for the CSS object-fit property in .NET enumeration form.
+/// Represents a CSS <c>object-fit</c> keyword.
 /// </summary>
 [EnumValue<string>]
 [IncludeEnumValues(typeof(GlobalKeyword))]
 public sealed partial class ObjectFitKeyword
 {
     /// <summary>
-    /// The contain.
+    /// Scales the object to fit inside its box while preserving its aspect ratio.
     /// </summary>
     public static readonly ObjectFitKeyword Contain = new("contain");
     /// <summary>
-    /// The cover.
+    /// Scales the object to cover its box while preserving its aspect ratio.
     /// </summary>
     public static readonly ObjectFitKeyword Cover = new("cover");
     /// <summary>
-    /// The fill.
+    /// Stretches the object to fill its box.
     /// </summary>
     public static readonly ObjectFitKeyword Fill = new("fill");
     /// <summary>
-    /// The scale down.
+    /// Selects whichever of <c>none</c> and <c>contain</c> produces the smaller object.
     /// </summary>
     public static readonly ObjectFitKeyword ScaleDown = new("scale-down");
     /// <summary>
-    /// The none.
+    /// Does not resize the object.
     /// </summary>
     public static readonly ObjectFitKeyword None = new("none");
 }
